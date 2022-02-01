@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <title>MAIN PAGE</title>
+</head>
+<body>
+<main>
+
+    <section>
+        <header class="">Security Test</header>
+        <footer>
+            <a th:href="@{/security/test}">확인</a>
+        </footer>
+    </section>
+
+    <section>
+        <header class="">Validation</header>
+        <footer>
+            <a th:href="@{/validation/test}">확인</a>
+        </footer>
+    </section>
+
+    <section>
+        <header class="">WebSocket Test</header>
+        <footer>
+            <a th:href="@{/socket/test}">확인</a>
+        </footer>
+    </section>
+
+    <section>
+        <header class="">React Test</header>
+        <footer>
+            <a th:href="@{/react/test}">확인</a>
+        </footer>
+    </section>
+</main>
+</body>
+</html>
