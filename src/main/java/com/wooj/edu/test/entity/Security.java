@@ -17,7 +17,7 @@ public class Security {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long pid;
-
+    private String userId;
     private String pw;
     private String firstName;
     private String lastName;
