@@ -13,6 +13,20 @@
   }
 }
 
+button {
+  width: 300px;
+  height: 65px;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +41,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
