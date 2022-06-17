@@ -1,0 +1,10 @@
+.tmp {
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    color: #282c34;
+    font-size: 100px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin: 100px;
+}

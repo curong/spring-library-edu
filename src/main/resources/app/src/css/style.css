@@ -1,0 +1,9 @@
+.box {
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    font-size: 100px;
+    color: khaki;
+    background-color: red;
+    border-radius: 10%;
+}
